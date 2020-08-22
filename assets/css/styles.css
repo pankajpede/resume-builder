@@ -330,6 +330,12 @@ body{
 .card .card-title .btn-mobile{
   display: none; 
 }
+.card-body .row{
+  margin-top: 30px;
+}
+.card-body .row:first-child{
+  margin-top: 0;
+}
 @media only screen and (max-width: 450px) {
   /* .btn span{
     font-size: 12px !important;
