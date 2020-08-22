@@ -324,3 +324,25 @@ body{
    width: 320px;
    margin: 0 auto;
 }
+.card .card-title .btn-desktop{
+  display: block;
+}
+.card .card-title .btn-mobile{
+  display: none; 
+}
+@media only screen and (max-width: 450px) {
+  /* .btn span{
+    font-size: 12px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  } */
+  /* .btn i{
+    margin-right: 5px !important; 
+  } */
+  .card .card-title .btn-desktop{
+    display: none;
+  }
+  .card .card-title .btn-mobile{
+    display: block;
+  }
+}
